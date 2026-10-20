@@ -1,0 +1,52 @@
+/* Page Body & Typography */
+body {
+  background-color: #f1f5f9; /* Clean slate background */
+  font-family: Arial, sans-serif;
+  color: #0f172a;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header & Heading Styles */
+header {
+  background-color: #e11d48; /* T1 Esports Red */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid black;
+}
+
+/*Dynamic Row Styling (Zebra Striping & Hover) */
+tr:nth-child(even) {
+}
+
+tr:hover {
+  transition: background-color 0.2s ease;
+}
+
+/*Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #64748b;
+  border-top: 1px solid #cbd5e1;
+}
+table { width: 100%; border-collapse: collaspe; }
+
+table{
+     border-collapse: collapse;
+     width: 100%;
+}
